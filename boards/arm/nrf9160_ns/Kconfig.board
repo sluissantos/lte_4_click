@@ -1,0 +1,6 @@
+# Copyright (c) 2024 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_NRF9160_NS
+	bool "nrf9160_ns"
+	depends on SOC_NRF9160_SICA
